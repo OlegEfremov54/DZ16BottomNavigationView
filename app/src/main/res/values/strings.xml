@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">DZ16BottomNavigationView</string>
+    <string name="title_home">Контакт</string>
+    <string name="title_dashboard">Погода</string>
+    <string name="title_notifications">Записная книжка</string>
+    <string name="profile">Профиль</string>
+    <string name="weather">Погода</string>
+    <string name="todo">Задачи</string>
+    <string name="start_btn">К записной книжке</string>
+    <!--    weather fragment -->
+    <string name="units_deg_c">℃</string>
+    <string name="tv_wind_deg">Ветер:</string>
+    <string name="units_pressure">мм рт. ст.</string>
+    <string name="units_wind_speed">м/c</string>
+    <string name="tv_city">Город</string>
+    <string name="tv_humidity">Влажность:</string>
+    <string name="btn_start">Посмотреть погоду</string>
+    <string name="city_et">Введите город</string>
+    <string name="update_btn">Обновить</string>
+
+    <string name="add_todo">Добавить задачу</string>
+    <string name="title_et">Введите название задачи</string>
+    <string name="content_et">Содержание задачи</string>
+    <string name="note_title">Заголовок записи</string>
+    <string name="content_of_note">Содержание записи</string>
+    <string name="date_and_time">Дата и время</string>
+</resources>

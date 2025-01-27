@@ -24,4 +24,5 @@
     <string name="note_title">Заголовок записи</string>
     <string name="content_of_note">Содержание записи</string>
     <string name="date_and_time">Дата и время</string>
+    <string name="api">a31d0f4bb5d5f3564bd97682904dc879</string>
 </resources>

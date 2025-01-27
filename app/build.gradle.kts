@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.example.dz16bottomnavigationview"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.dz16bottomnavigationview"

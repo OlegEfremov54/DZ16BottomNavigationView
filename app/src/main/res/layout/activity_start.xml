@@ -7,6 +7,8 @@
     android:layout_height="match_parent"
     tools:context=".StartActivity">
 
+
+
     <ImageView
         android:id="@+id/logo_iv"
         android:layout_width="300dp"
@@ -28,5 +30,7 @@
         android:layout_marginTop="36dp"
         android:text="@string/start_btn"
         style="@style/Widget.MaterialComponents.Button"/>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

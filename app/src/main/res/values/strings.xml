@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DZ16BottomNavigationView</string>
+    <string name="app_name">Записная книжка</string>
     <string name="title_home">Контакт</string>
     <string name="title_dashboard">Погода</string>
     <string name="title_notifications">Записная книжка</string>
@@ -25,4 +25,6 @@
     <string name="content_of_note">Содержание записи</string>
     <string name="date_and_time">Дата и время</string>
     <string name="api">a31d0f4bb5d5f3564bd97682904dc879</string>
+    <string name="infoStr">Информация  о приложении</string>
+    <string name="exit">Выход из приложения</string>
 </resources>

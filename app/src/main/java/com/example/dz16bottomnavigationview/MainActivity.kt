@@ -9,18 +9,24 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.dz16bottomnavigationview.databinding.ActivityMainBinding
 import android.Manifest
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.widget.Toolbar
+
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
-
+    private lateinit var toolbarMain: Toolbar
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+
 
         val navView: BottomNavigationView = binding.bottomNavView
 
@@ -56,5 +62,30 @@ class MainActivity : AppCompatActivity() {
         } else {
             Toast.makeText(this@MainActivity, "В разрешениях отказано", Toast.LENGTH_LONG)
         }
+    }
+    //Инициализация Меню
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.infoMenuMain -> {
+                Toast.makeText(
+                    applicationContext, "Автор Ефремов О.В. Создан 5.1.2025",
+                    Toast.LENGTH_LONG
+                ).show()
+            }
+
+            R.id.exitMenuMain -> {
+                Toast.makeText(
+                    applicationContext, "Работа приложения завершена",
+                    Toast.LENGTH_LONG
+                ).show()
+                finishAffinity()
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 }

@@ -29,14 +29,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="8dp"
-                android:text="Олег"
+                android:text="Олег Ефремов"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Ефремов"
+                android:text="Контакт: +79887755664"
+                android:textSize="20dp"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:text="Адрес: Питер. Зимний дворец."
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:text="Подвальное помещение с видом на лебяжью канавку"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="12dp" />
 
         </LinearLayout>
 

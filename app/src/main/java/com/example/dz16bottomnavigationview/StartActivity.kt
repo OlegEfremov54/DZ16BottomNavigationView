@@ -15,7 +15,7 @@ import com.example.dz16bottomnavigationview.databinding.ActivityStartBinding
 class StartActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityStartBinding
-    //private lateinit var toolbarMain: Toolbar
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -43,7 +43,7 @@ class StartActivity : AppCompatActivity() {
         }
     }
 
-    //Инициализация Меню
+    //Инициализация Меню в Тулбаре
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)
         return true

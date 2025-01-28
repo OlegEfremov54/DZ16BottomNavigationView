@@ -19,7 +19,7 @@ import androidx.appcompat.widget.Toolbar
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
-    private lateinit var toolbarMain: Toolbar
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this@MainActivity, "В разрешениях отказано", Toast.LENGTH_LONG)
         }
     }
-    //Инициализация Меню
+    //Инициализация Меню в Тулбаре
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)
         return true
